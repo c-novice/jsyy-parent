@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ae55faeb-0c48-449d-b916-9e7f806dea64" name="Changes" comment="Changes" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../apache-maven-3.8.1" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="2" />
+  </component>
+  <component name="ProjectId" id="1zOs03I4YSthlY7CBNBEP2sjiV5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/service/service-order/src/main/resources" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.proportion" value="0.18945312" />
+    <property name="project.structure.side.proportion" value="0.5585042" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Others\智能终端软件开发\jsyy\jsyy-parent\service\service-order\src\main\resources" />
+      <recent name="D:\Others\智能终端软件开发\jsyy\jsyy-parent\service\service-task\src\main\resources" />
+      <recent name="D:\Others\智能终端软件开发\jsyy\jsyy-parent\service\service-msm\src\main\resources" />
+      <recent name="D:\Others\智能终端软件开发\jsyy\jsyy-parent\service\service-cmn\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Others\智能终端软件开发\jsyy\jsyy-parent\service-client" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lzq.jsyy.user.handler" />
+      <recent name="com.atguigu.yygh.task.handler" />
+      <recent name="com.lzq.jsyy.order.handler" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ServiceTaskApplication">
+    <configuration name="ServerGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.yygh.gateway.ServerGatewayApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceCmnApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="service-cmn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lzq.jsyy.cmn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lzq.jsyy.cmn.ServiceCmnApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceMsmApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="service-msm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lzq.jsyy.msm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lzq.jsyy.msm.ServiceMsmApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceOrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="service-order" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lzq.jsyy.order.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lzq.jsyy.order.ServiceOrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceTaskApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="service-task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lzq.yygh.task.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lzq.yygh.task.ServiceTaskApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="service-user" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lzq.jsyy.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lzq.jsyy.user.ServiceUserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ServerGatewayApplication" />
+      <item itemvalue="Spring Boot.ServiceCmnApplication" />
+      <item itemvalue="Spring Boot.ServiceMsmApplication" />
+      <item itemvalue="Spring Boot.ServiceOrderApplication" />
+      <item itemvalue="Spring Boot.ServiceTaskApplication" />
+      <item itemvalue="Spring Boot.ServiceUserApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ServiceUserApplication" />
+        <item itemvalue="Spring Boot.ServiceTaskApplication" />
+        <item itemvalue="Spring Boot.ServiceOrderApplication" />
+        <item itemvalue="Spring Boot.ServiceMsmApplication" />
+        <item itemvalue="Spring Boot.ServiceCmnApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ae55faeb-0c48-449d-b916-9e7f806dea64" name="Changes" comment="" />
+      <created>1634030243090</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1634030243090</updated>
+      <workItem from="1634030244320" duration="7000" />
+      <workItem from="1634030256550" duration="400000" />
+      <workItem from="1634030676130" duration="2434000" />
+      <workItem from="1634036003436" duration="7746000" />
+      <workItem from="1634112281362" duration="3070000" />
+      <workItem from="1634224132242" duration="3357000" />
+      <workItem from="1634227539303" duration="2254000" />
+      <workItem from="1634232825551" duration="4035000" />
+      <workItem from="1634285652319" duration="2004000" />
+      <workItem from="1634292841910" duration="12352000" />
+      <workItem from="1634316614308" duration="3919000" />
+      <workItem from="1634345087743" duration="3278000" />
+      <workItem from="1634349316853" duration="7123000" />
+      <workItem from="1634369519427" duration="83000" />
+      <workItem from="1634371635235" duration="709000" />
+      <workItem from="1634445254387" duration="947000" />
+      <workItem from="1634456930887" duration="218000" />
+      <workItem from="1634457195741" duration="169000" />
+      <workItem from="1634457389647" duration="10000" />
+      <workItem from="1634458186359" duration="2365000" />
+      <workItem from="1634462000415" duration="147000" />
+      <workItem from="1634463831230" duration="1379000" />
+      <workItem from="1634556719000" duration="3237000" />
+      <workItem from="1634560070696" duration="796000" />
+      <workItem from="1636377957916" duration="10000" />
+      <workItem from="1636377986255" duration="725000" />
+      <workItem from="1636379260042" duration="119000" />
+      <workItem from="1636463572726" duration="5287000" />
+      <workItem from="1636524286185" duration="4141000" />
+      <workItem from="1636543184008" duration="10402000" />
+      <workItem from="1636595927604" duration="6606000" />
+      <workItem from="1636624328201" duration="2310000" />
+      <workItem from="1636626673111" duration="247000" />
+      <workItem from="1636639500854" duration="6906000" />
+      <workItem from="1636693669917" duration="9158000" />
+      <workItem from="1636720624614" duration="3618000" />
+      <workItem from="1636733127900" duration="1165000" />
+      <workItem from="1636776629681" duration="1217000" />
+      <workItem from="1636777873663" duration="2077000" />
+      <workItem from="1636791010600" duration="591000" />
+      <workItem from="1636791631460" duration="4338000" />
+      <workItem from="1636872348346" duration="439000" />
+      <workItem from="1637330330601" duration="121000" />
+      <workItem from="1637330475430" duration="498000" />
+      <workItem from="1637331009152" duration="168000" />
+      <workItem from="1637331194482" duration="110000" />
+      <workItem from="1637649484419" duration="2070000" />
+      <workItem from="1637683916583" duration="2545000" />
+      <workItem from="1637687500332" duration="591000" />
+      <workItem from="1637688391033" duration="531000" />
+      <workItem from="1637689010875" duration="599000" />
+      <workItem from="1637690350913" duration="687000" />
+      <workItem from="1637691463772" duration="660000" />
+      <workItem from="1637695968722" duration="629000" />
+      <workItem from="1637703574382" duration="164000" />
+      <workItem from="1637705876379" duration="35000" />
+      <workItem from="1637706036309" duration="1215000" />
+      <workItem from="1637713313720" duration="3496000" />
+      <workItem from="1637718697842" duration="348000" />
+      <workItem from="1637719121777" duration="221000" />
+      <workItem from="1637722486460" duration="3160000" />
+      <workItem from="1637748690183" duration="2068000" />
+      <workItem from="1637753277399" duration="4323000" />
+      <workItem from="1637762929749" duration="6417000" />
+      <workItem from="1637776039474" duration="4119000" />
+      <workItem from="1637784838715" duration="14000" />
+      <workItem from="1637785190888" duration="1439000" />
+      <workItem from="1637786653962" duration="11814000" />
+      <workItem from="1637844978879" duration="6168000" />
+      <workItem from="1637913524238" duration="2872000" />
+      <workItem from="1638248036574" duration="7000" />
+      <workItem from="1638265191900" duration="260000" />
+      <workItem from="1638281437271" duration="341000" />
+      <workItem from="1638369309837" duration="570000" />
+      <workItem from="1638370077098" duration="23000" />
+      <workItem from="1638370114481" duration="6000" />
+      <workItem from="1638370619802" duration="131000" />
+      <workItem from="1638379892365" duration="950000" />
+      <workItem from="1638421988705" duration="1113000" />
+      <workItem from="1638424440504" duration="347000" />
+      <workItem from="1638447654425" duration="214000" />
+      <workItem from="1638523629904" duration="140000" />
+      <workItem from="1639135139821" duration="171000" />
+      <workItem from="1639651862103" duration="151000" />
+      <workItem from="1639988929899" duration="3774000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/service/service-order/src/main/java/com/lzq/jsyy/order/receiver/OrderInfoReceiver.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/service-gateway/src/main/java/com/atguigu/yygh/gateway/filter/AuthGlobalFilter.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/service-gateway/src/main/java/com/atguigu/yygh/gateway/filter/AuthGlobalFilter.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

@@ -1,0 +1,55 @@
+# 服务端口
+server:
+  port: 8203
+# 服务名
+spring:
+  application:
+    name: service-msm
+
+  # 环境设置：dev、test、prod
+  profiles:
+    active: dev
+
+  # mysql配置
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/jsyy_user?characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+    username: root
+    password: lzq2686105
+
+
+  # json数据配置
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+
+  # redis配置
+  redis:
+    database: 0
+    host: 127.0.0.1
+    port: 6379
+    timeout: 1000
+
+  cloud:
+    # nacos配置
+    nacos:
+      discovery:
+        server-addr: 101.35.181.165:8848
+
+  # rabbitmq地址
+  rabbitmq:
+    host: 101.35.181.165
+    port: 5672
+    username: root
+    password: root
+
+  # 允许存在多个Feign调用相同Service的接口
+  main:
+    allow-bean-definition-overriding: true
+
+# 容联云配置
+cloopen:
+  sms:
+    accountSId: 8aaf07087bc82708017bf1f2aeb90b94
+    accountToken: 145b20f3ed29410181839addcb89fdce
+    appId: 8aaf07087bc82708017bf1f2afb30b9a

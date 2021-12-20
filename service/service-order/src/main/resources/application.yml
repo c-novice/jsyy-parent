@@ -1,0 +1,71 @@
+server:
+  port: 8160 # 服务端口
+spring:
+  application:
+    name: service-order # 服务名
+  profiles:
+    active: dev #运行级别
+  # mysql配置
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/jsyy_order?characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+    username: root
+    password: lzq2686105
+
+
+  # 返回json的全局时间格式
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+
+  # redis配置
+  redis:
+    database: 0
+    host: 127.0.0.1
+    port: 6379
+    timeout: 1000
+
+  # nacos配置
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 101.35.181.165:8848
+    # sentinel配置
+    sentinel:
+      transport:
+        dashboard: 101.35.181.165:8858
+
+  # rabbitmq配置
+  rabbitmq:
+    host: 101.35.181.165
+    port: 5672
+    username: root
+    password: root
+
+  # 允许存在多个Feign调用相同Service的接口
+  main:
+    allow-bean-definition-overriding: true
+
+# openfeign配置sentinel
+feign:
+  sentinel:
+    enabled: true
+
+# mapper.xml路径配置
+mybatis-plus:
+  mapper-locations: classpath:xml/*.xml
+  global-config:
+    db-config:
+      logic-delete-value: 1 # 逻辑已删除值(默认为 1)
+      logic-not-delete-value: 0 # 逻辑未删除值(默认为 0)
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+# 微信配置
+weixin:
+  appid: wx74862e0dfcf69954
+  partner: 1558950191
+  partnerkey: T6m9iK73b0kn9g5v426MKfHQH7X8rKwb
+  url: 127.0.0.1 # 微信回调地址
+  # 退款证书
+  cert: classpath:config/apiclient_cert.p12

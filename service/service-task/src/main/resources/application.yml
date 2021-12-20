@@ -1,0 +1,25 @@
+# 服务端口
+server:
+  port: 8205
+
+# 服务名
+spring:
+  application:
+    name: service-task
+
+  # 环境设置：dev、test、prod
+  profiles:
+    active: dev
+
+  # nacos服务地址
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 101.35.181.165:8848
+
+  # rabbitmq配置
+  rabbitmq:
+    host: 101.35.181.165
+    port: 5672
+    username: root
+    password: root
