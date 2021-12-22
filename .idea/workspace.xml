@@ -7,7 +7,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae55faeb-0c48-449d-b916-9e7f806dea64" name="Changes" comment="Changes" />
+    <list default="true" id="ae55faeb-0c48-449d-b916-9e7f806dea64" name="Changes" comment="Changes">
+      <change beforePath="$PROJECT_DIR$/service-client/service-cmn-client/src/main/java/com/lzq/jsyy/cmn/client/PermissionFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-client/service-cmn-client/src/main/java/com/lzq/jsyy/cmn/client/PermissionFeignClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-client/service-cmn-client/src/main/java/com/lzq/jsyy/cmn/client/ScheduleFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-client/service-cmn-client/src/main/java/com/lzq/jsyy/cmn/client/ScheduleFeignClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-client/service-user-client/src/main/java/com/lzq/jsyy/user/client/UserFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-client/service-user-client/src/main/java/com/lzq/jsyy/user/client/UserFeignClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-gateway/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/service-gateway/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service-gateway/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-cmn/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-cmn/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-cmn/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-cmn/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-msm/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-msm/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-msm/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-msm/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-order/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-order/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-order/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-order/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-task/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-task/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-task/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-task/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-user/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-user/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-user/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-user/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsyy-site/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../jsyy-site/src/main.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,7 +82,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/service-gateway" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/service/service-user/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -78,11 +97,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Others\智能终端软件开发\jsyy\jsyy-parent\service-gateway" />
-      <recent name="D:\Others\智能终端软件开发\jsyy\jsyy-parent\service\service-user" />
-      <recent name="D:\Others\智能终端软件开发\jsyy\jsyy-parent\service\service-task" />
-      <recent name="D:\Others\智能终端软件开发\jsyy\jsyy-parent\service\service-order" />
-      <recent name="D:\Others\智能终端软件开发\jsyy\jsyy-parent\service\service-msm\src" />
+      <recent name="D:\Others\智能终端软件开发\jsyy\jsyy-parent\service\service-user\src\main\resources" />
+      <recent name="D:\Others\智能终端软件开发\jsyy\jsyy-parent\service\service-task\src\main\resources" />
+      <recent name="D:\Others\智能终端软件开发\jsyy\jsyy-parent\service-gateway\src\main\resources" />
+      <recent name="D:\Others\智能终端软件开发\jsyy\jsyy-parent\service\service-order\src\main\resources" />
+      <recent name="D:\Others\智能终端软件开发\jsyy\jsyy-parent\service\service-msm\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Others\智能终端软件开发\jsyy\jsyy-parent\service\service-msm" />
@@ -101,7 +120,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ServiceTaskApplication">
+  <component name="RunManager" selected="Spring Boot.ServiceCmnApplication">
     <configuration name="ServerGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="service-gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.yygh.gateway.ServerGatewayApplication" />
@@ -186,11 +205,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ServiceUserApplication" />
+        <item itemvalue="Spring Boot.ServiceCmnApplication" />
         <item itemvalue="Spring Boot.ServiceTaskApplication" />
+        <item itemvalue="Spring Boot.ServiceUserApplication" />
         <item itemvalue="Spring Boot.ServiceOrderApplication" />
         <item itemvalue="Spring Boot.ServiceMsmApplication" />
-        <item itemvalue="Spring Boot.ServiceCmnApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -291,6 +310,20 @@
       <workItem from="1639651862103" duration="151000" />
       <workItem from="1639988929899" duration="3774000" />
       <workItem from="1639998223950" duration="1846000" />
+      <workItem from="1640003784975" duration="950000" />
+      <workItem from="1640006794698" duration="1361000" />
+      <workItem from="1640117832878" duration="521000" />
+      <workItem from="1640120432503" duration="602000" />
+      <workItem from="1640142821528" duration="5000" />
+      <workItem from="1640144128873" duration="125000" />
+      <workItem from="1640146564168" duration="41000" />
+      <workItem from="1640166939074" duration="7274000" />
+      <workItem from="1640177047303" duration="498000" />
+      <workItem from="1640177577847" duration="1783000" />
+      <workItem from="1640179813574" duration="79000" />
+      <workItem from="1640180027230" duration="841000" />
+      <workItem from="1640184297669" duration="4618000" />
+      <workItem from="1640191962838" duration="20000" />
     </task>
     <servers />
   </component>

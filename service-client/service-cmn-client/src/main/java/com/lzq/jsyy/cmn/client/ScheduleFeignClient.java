@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestParam;
  * @author lzq
  */
 @Component
-@FeignClient("service-cmn")
+@FeignClient(value = "service-cmn", contextId = "schedule")
 public interface ScheduleFeignClient {
     /**
      * 根据id查询预约排班

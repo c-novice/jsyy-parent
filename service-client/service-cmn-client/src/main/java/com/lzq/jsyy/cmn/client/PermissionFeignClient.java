@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestParam;
  * @author lzq
  */
 @Component
-@FeignClient("service-cmn")
+@FeignClient(value = "service-cmn", contextId = "permission")
 public interface PermissionFeignClient {
 
     /**

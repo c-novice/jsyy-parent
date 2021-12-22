@@ -1,0 +1,38 @@
+# 服务端口
+server:
+  port: 80
+  # 服务名
+spring:
+  application:
+    name: service-gateway
+  profiles:
+    active: dev
+  # nacos服务地址
+  cloud:
+    nacos:
+      discovery.server-addr: 101.35.181.165:8848
+    # 使用服务发现路由
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: service-cmn
+          uri: lb://service-cmn
+          predicates: Path=/*/cmn/**
+        - id: service-user
+          uri: lb://service-user
+          predicates: Path=/*/user/**
+        - id: service-msm
+          uri: lb://service-msm
+          predicates: Path=/*/msm/**
+        - id: service-order
+          uri: lb://service-order
+          predicates: Path=/*/order/**
+        - id: service-task
+          uri: lb://service-task
+          predicates: Path=/*/task/**
+
+  # 允许预检请求
+  mvc:
+    dispatch-options-request: true

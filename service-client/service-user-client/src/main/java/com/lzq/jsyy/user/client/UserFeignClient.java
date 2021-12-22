@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
  * @author lzq
  */
 @Component
-@FeignClient("service-user")
+@FeignClient(value = "service-user", contextId = "user")
 public interface UserFeignClient {
 
     /**
